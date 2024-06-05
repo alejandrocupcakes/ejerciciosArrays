@@ -43,7 +43,7 @@ public class ProfesoresEstudiantes {
             }
         } while (opt!=7);
     }
-    
+    // en esta parte permite al usuario registrar profesores y maneja posibles duplicados en la lista que ya esten//
     private void registrarProfesores() {
         System.out.println("\n<<<< Registro de Profesosres >>>>");
         int cant=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la Cantidad de profresores"));
