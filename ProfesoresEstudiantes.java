@@ -73,7 +73,7 @@ public class ProfesoresEstudiantes {
         }
         System.out.println("Registro de estudiantes Exitoso!\n");
     }
-    
+    //en esta parte se consultará los estudiantes y profesores registrados, donde se muestre un mensaje indicando que se debe registrar al menos uno primero//
     private void consultarListaProfesoresYEstudiantes() {
         System.out.println("\n<<<< Lista de Profesores y Estudiantes >>>>");
         ArrayList<String> listaTemporal;
