@@ -1,4 +1,4 @@
-package juanca.principal;
+package ejercicioCristian;
 
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
