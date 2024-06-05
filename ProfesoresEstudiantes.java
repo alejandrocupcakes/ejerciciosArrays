@@ -98,7 +98,7 @@ public class ProfesoresEstudiantes {
             JOptionPane.showMessageDialog(null, "No hay instructores, hay que registrar uno primero");
         }
     }
-    
+    //en esta parte permite consultar la lista de estudiantes asociados a un profesor específico, si el profesor no tiene alumnos, se mostrar que el profesor no existe//
     private void consultaProfesorPorNombre() {
         System.out.println("\n<<<< Consulta de Profesor >>>>  \n");
         String nombre=JOptionPane.showInputDialog("Ingrese el nombre del profesor");
@@ -122,7 +122,7 @@ public class ProfesoresEstudiantes {
             System.out.println("No se encuentra el profesor "+nombre+"\n");
         }
     }
-    
+    //en esta parte el código proporciona la cantidad de estudiantes asociados a un profesor específico, si el profesor no tiene estudiantes, se mostrar indicado que no se encuentra al profesor//
     private void consultaCantidadEstudiantesPorProfesor() {
         System.out.println("\n<<<< Consulta cantidad de estudiantes de Profesores >>>>  \n");
         String nombre=JOptionPane.showInputDialog("Ingrese el nombre del profesor para saber la cantidad de estudiantes asociados");
@@ -138,7 +138,7 @@ public class ProfesoresEstudiantes {
             System.out.println("No se encuentra el profesor "+nombre+"\n");
         }
     }
-    
+    // en esta parte se mostrar el estudiante que quiere consultar, y a que grupo pertenece, si el estudiante en el grupo, indicara que no existe//
     private void consultarEstudiante() {
         System.out.println("\n<<<< Consulta de Estudiante >>>>  \n");
         ArrayList<String> listTemporal;
