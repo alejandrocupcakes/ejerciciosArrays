@@ -55,7 +55,7 @@ public class ProfesoresEstudiantes {
                 JOptionPane.showMessageDialog(null, "El profesor ya se encuentra en la lista");
         }
     }
-    
+    // en esta parte permitirá que el usuario ingrese los estudiantes para un profesor, en donde se registrará el nombre del estudiante y evitar su duplicado//
     private void registrarEstudiantes() {
         System.out.println("\n<<<< REgistro de Estudiantes >>>>");
         for (int i = 0; i < ListaProfesores.size(); i++) {
