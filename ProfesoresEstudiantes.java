@@ -11,7 +11,7 @@ public class ProfesoresEstudiantes {
         listaProfesores=new ArrayList<>();
         listaGeneralEstudiantes=new ArrayList<>();
     }
-    
+    //en esta parte el usuario realizara una serie de paso para que el código pueda seguir su flujo//
     public void iniciar() {
         int opt = 0;
         do {
